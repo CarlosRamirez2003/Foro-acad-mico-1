@@ -1,0 +1,93 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+% Márgenes obligatorios
+\geometry{
+    top=2.4cm,
+    bottom=2.4cm,
+    left=2.4cm,
+    right=2.4cm
+}
+
+% Interlineado cerrado
+\renewcommand{\baselinestretch}{1.0}
+
+% Subtítulos en negrita, sin punto final, alineados a la izquierda
+\titleformat{\section}[block]{\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{1.5ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+% Sin sangría
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+% TÍTULO
+\begin{center}
+    \textbf{\uppercase{BUENAS PRACTICAS PARA EL DESARROLLO DE APLICACIONES REACTIVAS}}\\[1ex]
+    \textit{C. A. Ramírez García} \\
+    \textit{7690-21-10603  Universidad Mariano Gálvez} \\
+    \textit{Seminario de Tecnologías de Información} \\
+    \textit{cramirezg19@miumg.edu.gt}
+\end{center}
+
+% RESUMEN
+\section*{Resumen}
+Las aplicaciones reactivas son sistemas capaces de responder de manera dinámica a eventos externos, lo que permite una adaptación eficiente en tiempo real. Aunque su uso se ha popularizado en redes mediante protocolos como OpenFlow, su enfoque también es aplicable al desarrollo de software moderno, incluyendo aplicaciones móviles. En este ámbito, no basta con que una aplicación funcione correctamente: debe ofrecer rapidez, seguridad, simplicidad y una experiencia intuitiva. Por ello, es fundamental establecer una planificación adecuada, considerar al usuario final desde el inicio y estructurar el proyecto en etapas para garantizar orden y calidad en el desarrollo.
+
+
+% PALABRAS CLAVE
+\textbf{Palabras clave:} planificación, experiencia de usuario, código escalable, seguridad, pruebas
+
+% DESARROLLO DEL TEMA
+\section*{Desarrollo del tema}
+Cuando hablamos de aplicaciones reactivas, nos referimos a aquellas que tienen la capacidad de reaccionar de forma automática a los cambios que ocurren en su entorno. Esto puede ser, por ejemplo, una actualización de datos, una acción del usuario o un evento externo. Esta característica las hace ideales en situaciones donde se necesita una respuesta rápida y constante, como en aplicaciones móviles que deben mantenerse funcionales incluso con muchos usuarios activos al mismo tiempo.
+
+Sin embargo, no basta con que una aplicación sea reactiva para que sea buena. Hoy en día, los usuarios son exigentes: quieren una app que no solo funcione, sino que también sea visualmente atractiva, fácil de entender, segura y, sobre todo, útil. Es por eso que el desarrollo debe ir más allá del código; se necesita una visión integral desde la planificación hasta la implementación.
+
+Antes de empezar a programar, es muy importante tener claros los objetivos del proyecto. Saber para qué se va a usar la aplicación, quién la va a usar y qué problemas se espera resolver es el punto de partida. Cuando esto se define desde el inicio, es mucho más fácil tomar decisiones técnicas y de diseño que realmente se alineen con las necesidades del usuario final.
+
+Una buena forma de trabajar es dividir el desarrollo en etapas. Esto permite avanzar poco a poco, revisar cada paso y corregir errores antes de que crezcan. También ayuda a mantener el orden dentro del equipo y a tener una mejor visión del progreso. Además, se puede ir mostrando avances y recibir opiniones mientras el proyecto sigue en marcha.
+
+Desde las primeras fases, se debe tomar en cuenta cómo se sentirá el usuario al usar la app. Esto se llama experiencia de usuario, y es fundamental para que las personas disfruten y continúen usando la aplicación. Herramientas como los prototipos o wireframes son excelentes aliados en esta parte del proceso. Permiten hacer bocetos de cómo será la aplicación antes de programarla, facilitando los cambios y mejoras a tiempo.
+
+Otro punto clave es probar la aplicación con usuarios reales. A veces, lo que parece funcionar bien en teoría no resulta tan intuitivo cuando alguien lo usa por primera vez. Por eso, hacer pruebas y escuchar las opiniones de quienes van a utilizar la app puede marcar una gran diferencia. Esta retroalimentación permite pulir detalles que de otro modo podrían pasar desapercibidos.
+
+Aplicar técnicas de programación reactiva también ayuda a que las aplicaciones funcionen mejor. Estas técnicas permiten manejar datos en tiempo real de manera eficiente, utilizando estructuras que no bloquean el sistema y que permiten actualizar la información en pantalla al instante. Esto es especialmente útil cuando se trabaja con muchas fuentes de datos o cuando el tiempo de respuesta es crucial.
+
+Por otro lado, también se debe pensar en temas como la accesibilidad. Una aplicación moderna debe poder ser utilizada por personas con diferentes capacidades. Esto incluye desde el tamaño del texto y el contraste de colores hasta la compatibilidad con lectores de pantalla. Hacer una app accesible no solo es una buena práctica, también es una forma de incluir a más personas.
+
+El trabajo en equipo también se beneficia mucho del uso de herramientas que permitan organizar mejor el proceso. Utilizar sistemas de control de versiones como Git y metodologías ágiles ayuda a mantener un flujo de trabajo claro y colaborativo. Todos los integrantes del equipo saben qué se está haciendo, qué falta y qué se ha mejorado.
+
+Por supuesto, no podemos dejar de lado la seguridad. Desde el primer momento, es importante cuidar los datos del usuario y proteger el sistema contra posibles ataques. Esto implica validar entradas, cifrar información y aplicar buenas prácticas que aseguren que la app es confiable.
+
+Finalmente, una app no termina cuando se publica. Después del lanzamiento, viene una etapa igual de importante: el mantenimiento. Escuchar a los usuarios, corregir errores que no se detectaron antes y seguir mejorando es parte del ciclo de vida del software. Una app exitosa es la que sigue evolucionando con el tiempo, adaptándose a las nuevas necesidades y manteniéndose actualizada.
+
+En resumen, crear una aplicación reactiva implica mucho más que saber programar. Se trata de entender al usuario, planificar con inteligencia, trabajar de forma ordenada y estar dispuesto a aprender durante todo el proceso. Es un reto interesante, pero también una oportunidad para desarrollar soluciones modernas, útiles y con verdadero impacto.
+% OBSERVACIONES Y COMENTARIOS
+\section*{Observaciones y comentarios}
+Al analizar el desarrollo de aplicaciones reactivas, se vuelve evidente que la escritura de código representa solo una parte del proceso. El verdadero valor está en la capacidad de comprender al usuario, planificar cada etapa con claridad y aplicar métodos que permitan un uso eficiente de los recursos. Un aspecto que destaca es la relevancia del diseño anticipado, mediante prototipos funcionales y pruebas con usuarios reales, ya que estos permiten detectar posibles fallos antes del despliegue. Asimismo, la programación reactiva demuestra ser fundamental en entornos modernos donde la interacción en tiempo real ya no es una opción, sino una necesidad.
+
+% CONCLUSIONES
+\section*{Conclusiones}
+1. La programación reactiva permite construir sistemas eficientes en tiempo real.\\
+2. Planificar por etapas mejora la gestión y reduce errores.\\
+3. Probar con usuarios reales aporta mejoras clave en usabilidad.\\
+4. El diseño y la seguridad deben considerarse desde el inicio.\\
+5. Las buenas prácticas técnicas y organizativas incrementan el éxito del proyecto.
+
+% BIBLIOGRAFIA
+\section*{E-Grafia}
+https://www.outsystems.com/blog/posts/best-practices-reactive-web-app/
+
+https://www.sciencedirect.com/topics/computer-science/reactive-application#:~:text=Una%20aplicaci%C3%B3n%20reactiva%20se%20define,generalmente%20mediante%20el%20protocolo%20OpenFlow.
+
+https://appmaster.io/es/blog/programacion-reactiva-arquitectura-de-software-moderna
+\end{document}
